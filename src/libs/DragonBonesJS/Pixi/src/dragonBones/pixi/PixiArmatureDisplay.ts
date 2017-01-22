@@ -87,7 +87,7 @@ namespace dragonBones {
          * @inheritDoc
          */
         public hasEvent(type: EventStringType): boolean {
-            return true;//<boolean>this.listeners(type, true);
+            return this.listeners(type) ? true : false;
         }
         /**
          * @inheritDoc

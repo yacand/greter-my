@@ -1,0 +1,5 @@
+# WebStorm
+.idea
+
+# Node modules and npm things
+node_modules

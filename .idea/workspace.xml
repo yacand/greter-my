@@ -2,7 +2,120 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82c524a4-5aba-45b6-adec-b31aef964016" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/greeter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ts/pixi.js.d.ts" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/greeter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/pixi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/pixi.js.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/libs/pixi.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ts/references.js" afterPath="$PROJECT_DIR$/src/ts/references.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ts/references.js.map" afterPath="$PROJECT_DIR$/src/ts/references.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ts/references.ts" afterPath="$PROJECT_DIR$/src/ts/references.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/resources/greter_ske.json" afterPath="$PROJECT_DIR$/src/resources/greter_ske.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/resources/greter_tex.json" afterPath="$PROJECT_DIR$/src/resources/greter_tex.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/resources/greter_tex.png" afterPath="$PROJECT_DIR$/src/resources/greter_tex.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/dragonBones.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/build/dragonBones.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/dragonBones.min.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/build/dragonBones.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/dragonBonesPixi.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/Pixi/build/dragonBonesPixi.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/dragonBonesPixi.min.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/Pixi/build/dragonBonesPixi.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/animation/Animation.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/animation/Animation.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/animation/Animation.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/animation/Animation.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/animation/Animation.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/animation/Animation.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/animation/AnimationState.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/animation/AnimationState.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/animation/AnimationState.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/animation/AnimationState.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/animation/AnimationState.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/animation/AnimationState.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/animation/BaseTimelineState.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/animation/BaseTimelineState.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/animation/BaseTimelineState.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/animation/BaseTimelineState.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/animation/BaseTimelineState.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/animation/BaseTimelineState.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/animation/TimelineState.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/animation/TimelineState.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/animation/TimelineState.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/animation/TimelineState.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/animation/TimelineState.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/animation/TimelineState.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/animation/WorldClock.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/animation/WorldClock.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/animation/WorldClock.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/animation/WorldClock.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/animation/WorldClock.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/animation/WorldClock.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/armature/Armature.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/armature/Armature.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/armature/Armature.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/armature/Armature.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/armature/Armature.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/armature/Armature.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/armature/Bone.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/armature/Bone.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/armature/Bone.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/armature/Bone.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/armature/Bone.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/armature/Bone.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/armature/IArmatureDisplay.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/armature/IArmatureDisplay.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/armature/IArmatureDisplay.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/armature/IArmatureDisplay.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/armature/IArmatureDisplay.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/armature/IArmatureDisplay.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/armature/Slot.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/armature/Slot.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/armature/Slot.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/armature/Slot.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/armature/Slot.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/armature/Slot.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/armature/TransformObject.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/armature/TransformObject.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/armature/TransformObject.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/armature/TransformObject.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/armature/TransformObject.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/armature/TransformObject.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/core/BaseObject.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/core/BaseObject.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/core/BaseObject.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/core/BaseObject.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/core/BaseObject.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/core/BaseObject.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/core/DragonBones.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/core/DragonBones.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/core/DragonBones.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/core/DragonBones.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/core/DragonBones.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/core/DragonBones.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/event/EventObject.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/event/EventObject.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/event/EventObject.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/event/EventObject.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/event/EventObject.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/event/EventObject.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/factory/BaseFactory.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/factory/BaseFactory.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/factory/BaseFactory.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/factory/BaseFactory.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/factory/BaseFactory.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/factory/BaseFactory.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/geom/ColorTransform.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/geom/ColorTransform.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/geom/ColorTransform.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/geom/ColorTransform.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/geom/ColorTransform.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/geom/ColorTransform.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/geom/Matrix.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/geom/Matrix.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/geom/Matrix.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/geom/Matrix.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/geom/Matrix.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/geom/Matrix.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/geom/Point.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/geom/Point.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/geom/Point.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/geom/Point.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/geom/Point.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/geom/Point.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/geom/Rectangle.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/geom/Rectangle.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/geom/Rectangle.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/geom/Rectangle.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/geom/Rectangle.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/geom/Rectangle.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/geom/Transform.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/geom/Transform.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/geom/Transform.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/geom/Transform.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/geom/Transform.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/geom/Transform.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/model/AnimationData.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/model/AnimationData.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/model/AnimationData.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/model/AnimationData.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/model/AnimationData.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/model/AnimationData.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/model/ArmatureData.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/model/ArmatureData.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/model/ArmatureData.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/model/ArmatureData.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/model/ArmatureData.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/model/ArmatureData.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/model/DragonBonesData.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/model/DragonBonesData.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/model/DragonBonesData.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/model/DragonBonesData.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/model/DragonBonesData.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/model/DragonBonesData.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/model/FrameData.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/model/FrameData.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/model/FrameData.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/model/FrameData.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/model/FrameData.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/model/FrameData.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/model/TimelineData.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/model/TimelineData.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/model/TimelineData.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/model/TimelineData.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/model/TimelineData.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/model/TimelineData.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/parser/DataParser.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/parser/DataParser.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/parser/DataParser.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/parser/DataParser.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/parser/DataParser.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/parser/DataParser.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/parser/ObjectDataParser.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/parser/ObjectDataParser.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/parser/ObjectDataParser.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/parser/ObjectDataParser.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/parser/ObjectDataParser.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/parser/ObjectDataParser.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/pixi/PixiArmatureDisplay.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/Pixi/src/dragonBones/pixi/PixiArmatureDisplay.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/pixi/PixiArmatureDisplay.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/Pixi/src/dragonBones/pixi/PixiArmatureDisplay.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/pixi/PixiArmatureDisplay.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/Pixi/src/dragonBones/pixi/PixiArmatureDisplay.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/pixi/PixiFactory.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/Pixi/src/dragonBones/pixi/PixiFactory.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/pixi/PixiFactory.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/Pixi/src/dragonBones/pixi/PixiFactory.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/pixi/PixiFactory.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/Pixi/src/dragonBones/pixi/PixiFactory.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/pixi/PixiSlot.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/Pixi/src/dragonBones/pixi/PixiSlot.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/pixi/PixiSlot.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/Pixi/src/dragonBones/pixi/PixiSlot.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/pixi/PixiSlot.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/Pixi/src/dragonBones/pixi/PixiSlot.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/pixi/PixiTextureData.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/Pixi/src/dragonBones/pixi/PixiTextureData.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/pixi/PixiTextureData.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/Pixi/src/dragonBones/pixi/PixiTextureData.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/pixi/PixiTextureData.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/Pixi/src/dragonBones/pixi/PixiTextureData.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/texture/TextureData.js" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/texture/TextureData.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/texture/TextureData.js.map" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/texture/TextureData.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ts/core/dragonBones/texture/TextureData.ts" afterPath="$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/src/dragonBones/texture/TextureData.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,11 +136,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="greeter.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/greeter.html">
+      <file leaf-file-name="greeter.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/greeter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            <state relative-caret-position="153">
+              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -36,8 +159,38 @@
       <file leaf-file-name="greeter.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ts/engine/greeter.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="66" lean-forward="false" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+            <state relative-caret-position="85">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="references.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ts/references.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -48,7 +201,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>IWebGLRendererOptions</find>
+      <find>dragonBones.d.ts</find>
     </findStrings>
+    <dirStrings>
+      <dir>G:\html5\projects\greter-my\src\libs\DragonBonesJS\Pixi</dir>
+      <dir>G:\html5\projects\greter-my\src</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,7 +227,6 @@
         <option value="$PROJECT_DIR$/src/ts/greeter.ts" />
         <option value="$PROJECT_DIR$/src/ts/references.d.ts" />
         <option value="$PROJECT_DIR$/src/ts/references.js" />
-        <option value="$PROJECT_DIR$/src/ts/references.ts" />
         <option value="$PROJECT_DIR$/src/js/pixi.js.d.ts" />
         <option value="$PROJECT_DIR$/src/ts/core/dragonBones/pixi/PixiArmatureDisplay.ts" />
         <option value="$PROJECT_DIR$/src/ts/core/dragonBones/pixi/PixiFactory.ts" />
@@ -78,6 +235,14 @@
         <option value="$PROJECT_DIR$/src/ts/engine/greeter.js" />
         <option value="$PROJECT_DIR$/src/ts/engine/greeter.ts" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/src/greeter.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/libs/DragonBonesJS/Pixi/src/dragonBones/pixi/PixiFactory.ts" />
+        <option value="$PROJECT_DIR$/src/libs/DragonBonesJS/Pixi/src/dragonBones/pixi/PixiArmatureDisplay.ts" />
+        <option value="$PROJECT_DIR$/src/libs/DragonBonesJS/Pixi/src/dragonBones/pixi/PixiSlot.ts" />
+        <option value="$PROJECT_DIR$/src/ts/references.ts" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -87,9 +252,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="y" value="1" />
     <option name="width" value="1029" />
     <option name="height" value="876" />
   </component>
@@ -108,6 +275,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -134,6 +302,20 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="greter-my" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="greter-my" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -153,73 +335,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="engine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="greter-my" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="greter-my" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="greter-my" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="greter-my" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="greter-my" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="greter-my" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TypeScriptSamples-master" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="G:\html5\projects\greter-my\node_modules\gulp" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -232,7 +364,7 @@
       <recent name="G:\html5\projects\TypeScriptSamples-master\greeter" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gulp.js.Unnamed">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -292,6 +424,20 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <configuration default="false" name="Unnamed" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>default</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Gulp.js.Unnamed" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -314,11 +460,16 @@
       <workItem from="1484979265875" duration="3734000" />
       <workItem from="1484991826425" duration="594000" />
       <workItem from="1484993810399" duration="110000" />
+      <workItem from="1485003196068" duration="620000" />
+      <workItem from="1485091309532" duration="2757000" />
+      <workItem from="1485094383720" duration="965000" />
+      <workItem from="1485095868568" duration="1752000" />
+      <workItem from="1485097683966" duration="2531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27836000" />
+    <option name="totallyTimeSpent" value="36461000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -330,18 +481,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="1" width="1029" height="876" extended-state="0" />
+    <frame x="-7" y="0" width="1029" height="876" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27447024" sideWeight="0.49511856" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27447024" sideWeight="0.4864865" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="GitLabIntegration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27447024" sideWeight="0.50488144" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27447024" sideWeight="0.5135135" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -371,7 +522,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/greeter.html">
+    <entry file="file://$PROJECT_DIR$/src/ts/engine/greeter.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -379,6 +538,119 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/references.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/DragonBonesJS/Pixi/Demos/src/CoreElement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/greeter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/engine/greeter.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/references.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/greeter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/engine/greeter.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/references.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/greeter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/greeter.html" />
     <entry file="file://$PROJECT_DIR$/src/ts/engine/greeter.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -387,14 +659,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/greeter.html">
+    <entry file="file://$PROJECT_DIR$/public/greeter.html" />
+    <entry file="file://$PROJECT_DIR$/src/ts/engine/greeter.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="21" column="66" lean-forward="false" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/greeter.html" />
+    <entry file="file://$PROJECT_DIR$/src/ts/engine/greeter.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="66" lean-forward="false" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/greeter.html" />
     <entry file="file://$PROJECT_DIR$/src/ts/engine/greeter.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -403,14 +686,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/greeter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/greeter.html" />
     <entry file="file://$PROJECT_DIR$/src/ts/engine/greeter.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -426,19 +702,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/resources/greter_tex.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ts/engine/greeter.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="66" lean-forward="false" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/resources/greter_tex.png" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -446,10 +710,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/greeter.html">
+    <entry file="file://$PROJECT_DIR$/public/greeter.html" />
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/DragonBonesJS/Pixi/Demos/src/CoreElement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/DragonBonesJS/DragonBones/build/dragonBones.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/DragonBonesJS/Pixi/build/dragonBonesPixi.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/DragonBonesJS/Pixi/src/dragonBones/pixi/PixiFactory.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="180" column="50" lean-forward="false" selection-start-line="180" selection-start-column="50" selection-end-line="180" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/pixi/pixi.js.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="1205" column="12" lean-forward="false" selection-start-line="1205" selection-start-column="12" selection-end-line="1205" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/DragonBonesJS/Pixi/src/dragonBones/pixi/PixiSlot.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="32" column="43" lean-forward="false" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/DragonBonesJS/Pixi/src/dragonBones/pixi/PixiArmatureDisplay.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="89" column="38" lean-forward="false" selection-start-line="89" selection-start-column="38" selection-end-line="89" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/references.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ts/engine/greeter.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/greeter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
           <folding />
         </state>
       </provider>

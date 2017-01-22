@@ -1,0 +1,22 @@
+{
+  "name": "greter-my",
+  "version": "1.0.1",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yacand/greter-my.git"
+  },
+  "author": "Andrey Yatsenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yacand/greter-my/issues"
+  },
+  "homepage": "https://github.com/yacand/greter-my#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

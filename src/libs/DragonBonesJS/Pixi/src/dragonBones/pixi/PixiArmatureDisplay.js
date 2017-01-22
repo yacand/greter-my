@@ -80,7 +80,7 @@ var dragonBones;
          * @inheritDoc
          */
         PixiArmatureDisplay.prototype.hasEvent = function (type) {
-            return true; //<boolean>this.listeners(type, true);
+            return this.listeners(type) ? true : false;
         };
         /**
          * @inheritDoc
