@@ -1,22 +1,23 @@
 {
-  "name": "greter-my",
+  "name": "template-typescript",
   "version": "1.0.1",
   "description": "test",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yacand/greter-my.git"
+    "url": "git+https://github.com/yacand/template-typescript.git"
   },
   "author": "Andrey Yatsenko",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yacand/greter-my/issues"
+    "url": "https://github.com/yacand/template-typescript/issues"
   },
-  "homepage": "https://github.com/yacand/greter-my#readme",
+  "homepage": "https://github.com/yacand/template-typescript#readme",
   "devDependencies": {
+    "browser-sync": "^2.18.6",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",

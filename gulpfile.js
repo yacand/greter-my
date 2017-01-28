@@ -3,14 +3,10 @@ var gulp = require('gulp'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglifyjs');
     del = require('del');
+    browserSync = require('browser-sync');
 
 
-gulp.task('buildAll', ['_clean','_version','_minifyLibs','_minifyJs'], function() {
-    var buildResources = gulp.src('src/resources/**/*')
-        .pipe(gulp.dest('dist/resources'))
-});
-
-gulp.task('buildIgnoreLibs', ['_version','_minifyJs'], function() {
+gulp.task('buildRelease', ['_clean','_version','_minifyLibs','_minifyJs','_browserSyncRelease'], function() {
     var buildResources = gulp.src('src/resources/**/*')
         .pipe(gulp.dest('dist/resources'))
 });
@@ -45,3 +41,30 @@ gulp.task('_minifyJs', function() {
         .pipe(uglify('app.min.js'))
         .pipe(gulp.dest('dist/js'));
 });
+
+gulp.task('_browserSyncRelease', function() {
+    browserSync({
+        server: {
+            baseDir: 'dist'
+        },
+        notify: false
+    });
+});
+
+
+gulp.task('buildDebug', ['_version','_browserSyncDebug'], function() {
+
+});
+
+gulp.task('_browserSyncDebug', function() {
+    browserSync({
+        server: {
+            baseDir: 'src'
+        },
+        notify: false
+    });
+});
+
+// gulp.task('watch', function() {
+//     gulp.watch('src/ts/**/*.js', ['_minifyJs']);
+// });
