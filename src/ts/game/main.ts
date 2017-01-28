@@ -37,6 +37,7 @@ class Greeter {
         armature.addEventListener(dragonBones.EventObject.START, this._animationEventHandler, this);
         //armature.animation.play("ship-anim-1");
         armature.animation.play("ship-anim-2");
+        armature.animation.timeScale = 1;
         //armature.animation.fadeIn("ship-anim-2", 2, 2);
         //armature.animation.timeScale = 0.1;
 

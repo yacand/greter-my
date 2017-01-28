@@ -6,43 +6,36 @@ var gulp = require('gulp'),
     browserSync = require('browser-sync');
 
 
-gulp.task('buildRelease', ['_clean','_version','_minifyLibs','_minifyJs','_browserSyncRelease'], function() {
-    var buildResources = gulp.src('src/resources/**/*')
-        .pipe(gulp.dest('dist/resources'))
-});
-
-gulp.task('_version', function () {
-    run('version_change.bat').exec();
-});
-
-gulp.task('_clean', function() {
+gulp.task('releaseBuild', ['version'], function () {
+    // clean folders
     del.sync('src/js');
     del.sync('dist/js');
     del.sync('dist/libs');
-    return del.sync('dist/resources');
-});
+    del.sync('dist/resources');
 
-gulp.task('_minifyLibs', function() {
-    return gulp.src([
-        'node_modules/pixi.js/dist/pixi.min.js',
+    // minify libs
+    gulp.src([
+        'src/libs/Pixi/pixi.min.js',
         'src/libs/DragonBonesJS/DragonBones/build/dragonBones.min.js',
         'src/libs/DragonBonesJS/Pixi/build/dragonBonesPixi.min.js'
     ])
         .pipe(uglify('libs.min.js'))
         .pipe(gulp.dest('dist/libs'));
-});
 
-gulp.task('_minifyJs', function() {
-    return gulp.src([
+    // minify javascripts
+    gulp.src([
         'src/ts/**/*.js'
     ])
         .pipe(concat('app.js'))
         .pipe(gulp.dest('src/js'))
         .pipe(uglify('app.min.js'))
         .pipe(gulp.dest('dist/js'));
-});
 
-gulp.task('_browserSyncRelease', function() {
+    // copy resources
+    gulp.src('src/resources/**/*')
+        .pipe(gulp.dest('dist/resources'));
+
+    // create server
     browserSync({
         server: {
             baseDir: 'dist'
@@ -51,12 +44,13 @@ gulp.task('_browserSyncRelease', function() {
     });
 });
 
-
-gulp.task('buildDebug', ['_version','_browserSyncDebug'], function() {
-
+gulp.task('debugWatch', ['version', 'debugBrowserSync'], function () {
+    // watch files and reload server
+    gulp.watch('src/ts/**/*.ts', browserSync.reload);
+    gulp.watch('src/ts/index.html', browserSync.reload);
 });
 
-gulp.task('_browserSyncDebug', function() {
+gulp.task('debugBrowserSync', function () {
     browserSync({
         server: {
             baseDir: 'src'
@@ -65,6 +59,6 @@ gulp.task('_browserSyncDebug', function() {
     });
 });
 
-// gulp.task('watch', function() {
-//     gulp.watch('src/ts/**/*.js', ['_minifyJs']);
-// });
+gulp.task('version', function () {
+    run('version_change.bat').exec();
+});

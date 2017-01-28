@@ -1,4 +1,4 @@
-/// <reference path=".//pixi.js.d.ts" />
+/// <reference path="../libs/Pixi/pixi.js.d.ts" />
 /// <reference path="../libs/DragonBonesJS/Pixi/src/dragonBones/pixi/PixiTextureData.ts" />
 /// <reference path="../libs/DragonBonesJS/Pixi/src/dragonBones/pixi/PixiSlot.ts" />
 /// <reference path="../libs/DragonBonesJS/Pixi/src/dragonBones/pixi/PixiArmatureDisplay.ts" />
