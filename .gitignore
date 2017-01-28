@@ -3,3 +3,4 @@
 
 # Node modules and npm things
 node_modules
+/.idea/workspace.xml
