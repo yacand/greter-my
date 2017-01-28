@@ -10,9 +10,9 @@ var Greeter = (function () {
         this._backgroud.width = this.renderer.width;
         this._backgroud.height = this.renderer.height;
         PIXI.ticker.shared.add(this._renderHandler, this);
-        PIXI.loader.add("dragonBonesData", "./resources/greter_ske.json");
-        PIXI.loader.add("textureDataA", "./resources/greter_tex.json");
-        PIXI.loader.add("textureA", "./resources/greter_tex.png");
+        PIXI.loader.add("dragonBonesData", "./resources/art_ske.json");
+        PIXI.loader.add("textureDataA", "./resources/art_tex.json");
+        PIXI.loader.add("textureA", "./resources/art_tex.png");
         PIXI.loader.once("complete", this._loadComplateHandler, this);
         PIXI.loader.load();
     };
