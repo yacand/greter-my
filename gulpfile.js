@@ -1,12 +1,17 @@
 var gulp = require('gulp'),
+    run = require('gulp-run')
     concat = require('gulp-concat'),
     uglify = require('gulp-uglifyjs');
     del = require('del');
 
 
-gulp.task('build', ['_clean', '_minifyLibs','_minifyJs'], function() {
+gulp.task('build', ['_clean','_version','_minifyLibs','_minifyJs'], function() {
     var buildResources = gulp.src('src/resources/**/*')
         .pipe(gulp.dest('dist/resources'))
+});
+
+gulp.task('_version', function () {
+    run('version_change.bat').exec();
 });
 
 gulp.task('_clean', function() {
