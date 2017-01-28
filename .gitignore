@@ -1,6 +1,5 @@
 # WebStorm
-.idea
+/.idea
 
 # Node modules and npm things
-node_modules
-/.idea/workspace.xml
+/node_modules
