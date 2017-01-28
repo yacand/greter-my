@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82c524a4-5aba-45b6-adec-b31aef964016" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/libs/dragonBones.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/libs/dragonBonesPixi.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/libs/pixi.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/main.min.js" afterPath="$PROJECT_DIR$/dist/js/main.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/greeter.html" afterPath="$PROJECT_DIR$/src/greeter.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,8 +62,8 @@
       <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="459">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -80,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -138,8 +141,8 @@
         <option value="$PROJECT_DIR$/src/ts/engine/greeter.js" />
         <option value="$PROJECT_DIR$/dist/js/Root.js" />
         <option value="$PROJECT_DIR$/dist/js/main.js" />
-        <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/dist/index.html" />
       </list>
     </option>
   </component>
@@ -156,9 +159,8 @@
           <GulpTaskState>
             <dependencies>
               <dependency value="_clean" />
-              <dependency value="_libs" />
-              <dependency value="_resources" />
-              <dependency value="_minify" />
+              <dependency value="_minifyLibs" />
+              <dependency value="_minifyJs" />
             </dependencies>
             <task-name>build</task-name>
           </GulpTaskState>
@@ -166,13 +168,10 @@
             <task-name>_clean</task-name>
           </GulpTaskState>
           <GulpTaskState>
-            <task-name>_libs</task-name>
+            <task-name>_minifyLibs</task-name>
           </GulpTaskState>
           <GulpTaskState>
-            <task-name>_resources</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>_minify</task-name>
+            <task-name>_minifyJs</task-name>
           </GulpTaskState>
         </tasks>
       </GulpfileState>
@@ -589,12 +588,12 @@
       <workItem from="1485095868568" duration="1752000" />
       <workItem from="1485097683966" duration="5340000" />
       <workItem from="1485103062374" duration="2824000" />
-      <workItem from="1485586367472" duration="4883000" />
+      <workItem from="1485586367472" duration="5720000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46977000" />
+    <option name="totallyTimeSpent" value="47814000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -943,8 +942,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -952,7 +951,7 @@
     <entry file="file://$PROJECT_DIR$/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding />
         </state>
       </provider>
