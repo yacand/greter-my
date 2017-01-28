@@ -5,7 +5,12 @@ var gulp = require('gulp'),
     del = require('del');
 
 
-gulp.task('build', ['_clean','_version','_minifyLibs','_minifyJs'], function() {
+gulp.task('buildAll', ['_clean','_version','_minifyLibs','_minifyJs'], function() {
+    var buildResources = gulp.src('src/resources/**/*')
+        .pipe(gulp.dest('dist/resources'))
+});
+
+gulp.task('buildIgnoreLibs', ['_version','_minifyJs'], function() {
     var buildResources = gulp.src('src/resources/**/*')
         .pipe(gulp.dest('dist/resources'))
 });
@@ -35,8 +40,8 @@ gulp.task('_minifyJs', function() {
     return gulp.src([
         'src/ts/**/*.js'
     ])
-        .pipe(concat('main.js'))
+        .pipe(concat('app.js'))
         .pipe(gulp.dest('src/js'))
-        .pipe(uglify('main.min.js'))
+        .pipe(uglify('app.min.js'))
         .pipe(gulp.dest('dist/js'));
 });

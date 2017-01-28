@@ -49,4 +49,4 @@ var Greeter = (function () {
 ;
 var greeter = new Greeter();
 greeter.init();
-//# sourceMappingURL=greeter.js.map
+//# sourceMappingURL=main.js.map
