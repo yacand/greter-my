@@ -1,7 +1,7 @@
+///<reference path="Game/Main.ts"/>
 module Game
 {
     "use strict"
-    import Main = Game.Main;
 
     class AppStart
     {
@@ -11,7 +11,7 @@ module Game
 
         public init():void
         {
-            const main:Main = new Main();
+            const main:Game.Main = new Game.Main();
             main.init();
         }
     }

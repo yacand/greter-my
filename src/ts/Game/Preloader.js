@@ -1,3 +1,5 @@
+///<reference path="GameView.ts"/>
+///<reference path="../../libs/DragonBonesJS/DragonBones/build/dragonBones.d.ts"/>
 var Game;
 (function (Game) {
     "use strict";

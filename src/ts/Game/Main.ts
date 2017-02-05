@@ -1,11 +1,8 @@
+///<reference path="../../libs/Pixi/pixi.js.d.ts"/>
+///<reference path="Preloader.ts"/>
 module Game
 {
     "use strict"
-    import PointType = PIXI.Point;
-    import InteractionEvent = PIXI.interaction.InteractionEvent;
-    import ArmatureDisplayType = dragonBones.PixiArmatureDisplay;
-    import EventType = dragonBones.EventObject;
-    import Bone = dragonBones.Bone;
 
     export class Main
     {

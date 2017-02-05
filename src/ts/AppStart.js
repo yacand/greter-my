@@ -1,12 +1,12 @@
+///<reference path="Game/Main.ts"/>
 var Game;
 (function (Game) {
     "use strict";
-    var Main = Game.Main;
     var AppStart = (function () {
         function AppStart() {
         }
         AppStart.prototype.init = function () {
-            var main = new Main();
+            var main = new Game.Main();
             main.init();
         };
         return AppStart;

@@ -13,8 +13,8 @@ var Version = {
     VERSION: 1,
     MAJOR: 0,
     MINOR: 0,
-    REVISION: 192,
-    DATE: "05.02.2017 19:54:55,18"
+    REVISION: 194,
+    DATE: "05.02.2017 21:57:10,20"
 };
 //# sourceMappingURL=Version.js.map
 var Game;

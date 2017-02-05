@@ -4,7 +4,14 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglifyjs'),
     del = require('del'),
     browserSync = require('browser-sync'),
-    sourcemap = require('gulp-sourcemap');
+    sourcemap = require('gulp-sourcemap'),
+    glob = require('glob'),
+    paths,
+    gutil = require('gulp-util'),
+    es = require('event-stream'),
+    ts = require('gulp-typescript'),
+    path = require("path"),
+    sourcemaps = require('gulp-sourcemaps');
 
 
 gulp.task('releaseBuild', ['version'], function () {
@@ -53,10 +60,10 @@ gulp.task('releaseBuild', ['version'], function () {
     });
 });
 
-gulp.task('debugBrowserSync', ['version', 'buildTypeScript'], function () {
+gulp.task('debugBrowserSync', ['version', 'build-ts'], function () {
     browserSync({
         server: {
-            baseDir: 'src'
+            baseDir: 'dist'
         },
         port: 3000,
         open: true,
@@ -95,4 +102,72 @@ gulp.task('buildTypeScript', function () {
             write:'src/js/'
         }))
         .pipe(gulp.dest('./src/js/'));
+});
+
+// ==================================
+var config = {
+    ts: {
+        root: './src/ts/AppStart.ts',
+        ignore: ["./src/ts/_*.ts", "./game/ts/**/*.d.ts"],
+
+    }
+};
+
+paths = {
+    game:   ['./src/AppStart.js'],
+    ts:     ['src/js/*.js', 'src/js/**/*.js'],
+    dist:   './dist/',
+    htmls:'./src/*.html'
+};
+
+var config = {
+    app: {
+        root: './src',
+        pub: './dist'
+    },
+    ts: {
+        root: './src/ts/AppStart.ts',
+        ignore: ["./src/ts/_*.ts", "./game/ts/**/*.d.ts"],
+
+    },
+    less: {
+        main: "./src/css/index.less",
+        pub: './src/css'
+    }
+};
+
+// Compiles TS > JS
+gulp.task('build-ts', function () {
+    var opts = {
+        ignore: config.ts.ignore
+    };
+    var streamFinished = function () {
+        gutil.log('End stream');
+    };
+
+    return glob(config.ts.root, opts, function (err, files) {
+        var tasks = files.map(function (entry) {
+            gutil.log('Compiling file: ' + entry);
+            var fileNameEx = path.basename(entry, path.extname(entry));
+            var fileName = fileNameEx + ".js";
+
+            gutil.log('Out file: ' + fileName);
+
+            return gulp.src(entry)
+                .pipe(sourcemaps.init())
+                .pipe(ts({
+                    target: "ES5",
+                    noImplicitAny: false,
+                    outFile: fileName,
+                    removeComments: true,
+                    experimentalDecorators: true,
+                    sourceMap: true,
+                    allowJs: false
+                }))
+                .pipe(sourcemaps.write())
+                .pipe(gulp.dest(config.app.pub));
+        });
+        return es.merge.apply(null, tasks)
+            .on('end', streamFinished);
+    });
 });

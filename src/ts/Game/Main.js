@@ -1,3 +1,5 @@
+///<reference path="../../libs/Pixi/pixi.js.d.ts"/>
+///<reference path="Preloader.ts"/>
 var Game;
 (function (Game) {
     "use strict";
