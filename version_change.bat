@@ -9,11 +9,11 @@ set timelocal=%time%
 echo REVISION:%COUNTER%
 echo DATE:%DATELOCAL% %TIMELOCAL%
 
-@echo	class Version >src\ts\version.ts
-@echo	{ >>src\ts\version.ts
-@echo		public VERSION:number = 1; //-- Public launch >>src\ts\version.ts
-@echo		public MAJOR:number = 0; //-- Milestone >>src\ts\version.ts
-@echo		public MINOR:number = 0; //-- Sprints / intermediate releases >>src\ts\version.ts
-@echo		public REVISION:number = %COUNTER%; //-- build increment >>src\ts\version.ts
-@echo		public DATE:string = "%DATELOCAL% %TIMELOCAL%" >>src\ts\version.ts
-@echo	} >>src\ts\version.ts
+@echo	var Version = >src\ts\Version.ts
+@echo	{ >>src\ts\Version.ts
+@echo		VERSION:1, //-- Public launch >>src\ts\Version.ts
+@echo		MAJOR:0, //-- Milestone >>src\ts\Version.ts
+@echo		MINOR:0, //-- Sprints / intermediate releases >>src\ts\Version.ts
+@echo		REVISION:%COUNTER%, //-- build increment >>src\ts\Version.ts
+@echo		DATE:"%DATELOCAL% %TIMELOCAL%" >>src\ts\Version.ts
+@echo	} >>src\ts\Version.ts
