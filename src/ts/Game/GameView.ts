@@ -1,5 +1,3 @@
-///<reference path="../../libs/DragonBonesJS/DragonBones/build/dragonBones.d.ts"/>
-///<reference path="../../libs/DragonBonesJS/Pixi/build/dragonBonesPixi.d.ts"/>
 module Game
 {
     "use strict"

@@ -1,5 +1,3 @@
-///<reference path="../../libs/Pixi/pixi.js.d.ts"/>
-///<reference path="Preloader.ts"/>
 module Game
 {
     "use strict"

@@ -1,4 +1,4 @@
-///<reference path="Game/Main.ts"/>
+///<reference path="references.ts"/>
 module Game
 {
     "use strict"

@@ -121,6 +121,11 @@ declare namespace dragonBones {
         constructor();
         private _createTexture(textureData, textureAtlas);
         /**
+         * @internal
+         * @private Bone
+         */
+        protected _updateVisible(): void;
+        /**
          * @inheritDoc
          */
         protected _onClear(): void;
@@ -193,7 +198,7 @@ declare namespace dragonBones {
         /**
          * @private
          */
-        static _clock: WorldClock;
+        public static _clock: WorldClock;
         private static _clockHandler(passedTime);
         /**
          * @language zh_CN
